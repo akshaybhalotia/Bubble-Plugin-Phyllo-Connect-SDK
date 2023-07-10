@@ -22,6 +22,8 @@ function(properties, context) {
   };
 
   const phylloConnect = window.PhylloConnect.initialize(config);
+  
+    console.log(phylloConnect, 'phylloConnect')
 
   phylloConnect.on("accountConnected", (accountId, workplatformId, userId) => {
     // gives the successfully connected account ID and work platform ID for the given user ID

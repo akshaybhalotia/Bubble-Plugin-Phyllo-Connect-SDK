@@ -16,7 +16,7 @@
             "doc": "The environment to which you want to connect (test or production environment). It is important to note that all test data must be sent to sandbox and conversely, all live data for production.",
             "editor": "Dropdown",
             "name": "environment",
-            "options": "sandbox,production,staging",
+            "options": "sandbox,production,staging,development,dev",
             "rank": 0
         },
         "ADY": {
